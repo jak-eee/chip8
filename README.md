@@ -49,3 +49,27 @@ Scale screen/window in realtime (buggy) with keys:
 | - | + |
  -------
 ```
+
+## Sreenshots
+
+
+### Tetris
+<p align="left"> <img width="600px" src="img/screenshot-0.png"></p>
+
+### Wipeoff
+<p align="left"> <img width="600px" src="img/screenshot-1.png"></p>
+
+### Invaders
+<p align="left"> <img width="600px" src="img/screenshot-2.png"></p>
+
+### Debug Mode
+<p align="left"> <img width="600px" src="img/screenshot-3.png"></p>
+
+## TODOs
+
+* Implement sound
+* Fix y-coordinate wrapping
+* Fix graphical flicker. Flicker is inherent to chip8 rendering but could be mitigated.
+* Fix input timing (key needs to be held down at the time the relevant op codes execute, feels sluggish, needs keyup delay)
+* Fix cycle and opcode timing, it's incredibly bad, frametime graph is all over the place.
+* Fix display rendering implementation, incredibly slow and is mostly responsible for the bad frametimes.
