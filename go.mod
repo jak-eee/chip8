@@ -1,4 +1,4 @@
-module github.com/beniceok/chip8
+module github.com/jak-eee/chip8
 
 go 1.15
 

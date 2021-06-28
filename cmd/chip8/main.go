@@ -6,9 +6,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/beniceok/chip8"
-	"github.com/beniceok/chip8/components"
-	"github.com/beniceok/chip8/debug"
+	"github.com/jak-eee/chip8"
+	"github.com/jak-eee/chip8/components"
+	"github.com/jak-eee/chip8/debug"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/faiface/pixel/pixelgl"
 )

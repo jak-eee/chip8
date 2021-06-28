@@ -3,7 +3,7 @@ package components
 import (
 	"time"
 
-	"github.com/beniceok/chip8"
+	"github.com/jak-eee/chip8"
 )
 
 // StartSpeaker enables sound.
