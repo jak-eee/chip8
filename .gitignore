@@ -1,0 +1,11 @@
+*
+!*/
+!.gitignore
+!go.mod
+!go.sum
+!**.go
+!**.md
+!**.json
+!LICENSE
+!**Makefile
+!**.png
